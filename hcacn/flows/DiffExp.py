@@ -81,7 +81,24 @@ class DiffExp(Flow):
             rp.add('Deseq2 results',Deseq2_result)
 
             self._setObj('Deseq2_result', Deseq2_result)
+        elif algorithm == 'edgeR':
+            matrixdata = self._getParam('matrixdata')
+            annotation = self._getParam('annotation')
+            outputpath = self._getParam('outputpath')
+            padj = self._getParam('padj')
+            lgFDl = self._getParam('lgFDl')
+            lgFDu = self._getParam('lgFDu')
 
+            edgeR2_result = edgeR(matrixdata = matrixdata,
+                                   annotation = annotation,
+                                   outputpath = outputpath,
+                                   padj = padj,
+                                   lgFDl = lgFDl,
+                                   lgFDu = lgFDu)
+            rp = Report()
+            rp.add('edgeR2 results',edgeR2_result)
+
+            self._setObj('edgeR2_result', edgeR2_result)
         else:
           print('This algorithm is unavailable!') 
 

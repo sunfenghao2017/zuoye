@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Download data  for GSE87544 - GEO - NCBI</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="geo" />
+    <meta name="keywords" content="NCBI, national institutes of health, nih, database, archive, central, bioinformatics,          biomedicine, geo, gene, expression, omnibus, chips, microarrays, oligonucleotide, array, sage, CGH" />
+    <meta name="description" content="Gene Expression Omnibus (GEO) is a database repository of high throughput          gene expression data and hybridization arrays, chips, microarrays." />
+    <meta name="ncbi_app" content="geo" />
+    <meta name="ncbi_pdid" content="download" />
+    <meta name="ncbi_phid" content="0751103FB98A14610000000000000001" />
+    <meta name="ncbi_sessionid" content="0751103FB98A1461_0000SID" />
+    <link rel="stylesheet" type="text/css" href="/geo/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="/geo/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="download.css" />
+    <script type="text/javascript" src="/core/jig/1.14.8/js/jig.min.js"></script>
+    <script type="text/javascript" src="/geo/js/dd_menu.js"></script>
+  </head>
+  <body class="download">
+    <div id="all">
+      <div id="page">
+        <div xmlns="" id="header">
+    <div id="ncbi_logo">
+        <a href="/">
+            <img src="/geo/img/ncbi_logo.gif" alt="NCBI Logo" />
+        </a>
+    </div>
+    <div id="geo_logo">
+        <a href="/geo/"><img src="/geo/img/geo_main.gif" alt="GEO Logo" /></a>
+    </div>
+</div>
+        <div xmlns="" id="nav_bar">
+    <ul id="geo_nav_bar">
+        <li><a href="#">GEO Publications</a>
+            <ul class="sublist">
+                <li><a href="/geo/info/GEOHandoutFinal.pdf">Handout</a></li>
+                <li><a href="http://nar.oxfordjournals.org/content/41/D1/D991.full">NAR 2013 (latest)</a></li>
+                <li><a href="http://nar.oupjournals.org/cgi/content/full/30/1/207?ijkey=oxMPOWseARs7o&amp;keytype=ref&amp;siteid=nar">NAR 2002 (original)</a></li>
+                <li><a href="/pmc/3531084,3341798,3013736,2686538,2270403,1669752,1619900,1619899,539976,99122">All publications</a></li>
+            </ul>
+        </li>
+        <li><a href="/geo/info/faq.html">FAQ</a></li>
+        <li><a href="/geo/info/MIAME.html" title="Minimum Information About a Microarray Experiment">MIAME</a></li>
+        <li><a href="mailto:geo@ncbi.nlm.nih.gov">Email GEO</a></li>
+    </ul>
+</div>
+        <div id="crumbs_login_bar"><a title="NCBI home page" href="/">NCBI</a> » 
+        <a id="curr_page" title="GEO home page" href="/geo/">GEO</a> »
+        <a href="/geo/download/">Download data</a><span id="login_status"><a href="/geo/submitter" title="Click here to login.">Login</a></span></div>
+        <div id="content">
+          <h1>Download data for GSE87544</h1>
+          <div id="downloads">
+            <p>
+                        Information about GEO data organization is provided in the <a href="/geo/info/overview.html">GEO overview</a>.
+                        GEO <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/">FTP site</a> structure and available formats are described in 
+                        <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/README.txt">README.txt</a>. Additional download options are described at
+                        <a href="/geo/info/download.html">Download GEO data</a>.
+                    </p>
+            <div class="section">
+              <h2>Series SOFT file:</h2>
+              <p>SOFT family files are text files that incorporate complete data and metadata for all Platform, Sample and Series records in the family.</p>
+              <ul>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE87nnn/GSE87544/soft/GSE87544_family.soft.gz">GSE87544_family.soft.gz</a>
+                  <span class="fsize">3.0 Kb</span>
+                </li>
+              </ul>
+            </div>
+            <div class="section">
+              <h2>Series MINiML file:</h2>
+              <p>MINiML family files are XML files that incorporate complete data and metadata for all Platform, Sample and Series records in the family.</p>
+              <ul>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE87nnn/GSE87544/miniml/GSE87544_family.xml.tgz">GSE87544_family.xml.tgz</a>
+                  <span class="fsize">3.4 Kb</span>
+                </li>
+              </ul>
+            </div>
+            <div class="section">
+              <h2>Series Matrix file:</h2>
+              <p>Series_matrix files are text files that include a tab-delimited value-matrix table generated from the 'VALUE' column of each Sample, headed by Sample and Series metadata. These files are suitable for loading into spreadsheet applications such as Excel.<br /><strong>CAUTION:</strong> data are extracted directly from the original records with no consideration as to whether the values are directly comparable.</p>
+              <ul>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE87nnn/GSE87544/matrix/GSE87544_series_matrix.txt.gz">GSE87544_series_matrix.txt.gz</a>
+                  <span class="fsize">2.6 Kb</span>
+                </li>
+              </ul>
+            </div>
+            <div class="section">
+              <h2>Series supplementary data archive (contains TXT files):</h2>
+              <p></p>
+              <ul>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE87nnn/GSE87544/suppl/GSE87544_RAW.tar">GSE87544_RAW.tar</a>
+                  <span class="fsize">30.5 Mb</span>
+                </li>
+              </ul>
+            </div>
+            <div class="section">
+              <h2>Series supplementary data:</h2>
+              <p></p>
+              <ul>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE87nnn/GSE87544/suppl/GSE87544_1443737Cells.Expresssion.Matrix.log_tpm+1_.renamed.RData.gz">GSE87544_1443737Cells.Expresssion.Matrix.log_tpm+1_.renamed.RData.gz</a>
+                  <span class="fsize">48.7 Mb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE87nnn/GSE87544/suppl/GSE87544_1443737Cells.SVM.cluster.identity.renamed.csv.gz">GSE87544_1443737Cells.SVM.cluster.identity.renamed.csv.gz</a>
+                  <span class="fsize">130.2 Kb</span>
+                </li>
+                <li xmlns="">
+                  <a href="ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE87nnn/GSE87544/suppl/GSE87544_Merged_17samples_14437cells_count.txt.gz">GSE87544_Merged_17samples_14437cells_count.txt.gz</a>
+                  <span class="fsize">23.8 Mb</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div xmlns="" id="footer">
+    <span class="helpbar">|<a href="http://www.nlm.nih.gov"> NLM </a>|<a href="http://www.nih.gov"> NIH </a>|<a href="mailto:geo@ncbi.nlm.nih.gov"> Email GEO </a>|<a href="/geo/info/disclaimer.html"> Disclaimer </a>|<a href="http://www.nlm.nih.gov/accessibility.html"> Accessibility </a>|</span>
+</div>
+    </div>
+    <script type="text/javascript" src="/portal/portal3rc.fcgi/rlib/js/InstrumentNCBIBaseJS/InstrumentPageStarterJS.js"></script>
+  </body>
+</html>
+
